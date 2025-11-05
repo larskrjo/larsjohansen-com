@@ -1,2 +1,2 @@
-# larsjohansen-com
-My Personal Website Repo
+# website
+My Personal Website

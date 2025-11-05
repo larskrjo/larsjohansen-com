@@ -1,0 +1,14 @@
+[project]
+name = "larsjohansen-com-backend"
+version = "0.1.0"
+description = "https://api.larsjohansen.com backend project"
+requires-python = ">=3.13"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "mysql-connector-python",
+    "requests",
+    "boto3",
+    "botocore"
+]
