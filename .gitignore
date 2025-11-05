@@ -1,9 +1,15 @@
-**/.idea/
-**/__pycache__/
+# MacOS
 **/.DS_Store
+
+# JetBrains
+**/.idea/
+
+# Javascript/Typescript
 **/node_modules/
+
+# Python
+**/__pycache__/
 
 # React Router
 **/.react-router/
 **/build/
-
