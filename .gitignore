@@ -9,6 +9,8 @@
 
 # Python
 **/__pycache__/
+**/*.egg-info/
+**/.venv
 
 # React Router
 **/.react-router/
