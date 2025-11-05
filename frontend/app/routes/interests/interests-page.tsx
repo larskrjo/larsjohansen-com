@@ -4,7 +4,7 @@ import InterestsView from "~/components/pages/interests/InterestsView";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "Interests" },
+        { title: "LJ | Interests" },
         { name: "description", content: "Lars Johansen's Interests Page" },
     ];
 }

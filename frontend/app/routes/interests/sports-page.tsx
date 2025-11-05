@@ -4,7 +4,7 @@ import SportsView from "~/components/pages/interests/SportsView";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "Sports" },
+        { title: "LJ | Sports" },
         { name: "description", content: "Lars Johansen's Sports Page" },
     ];
 }

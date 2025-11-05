@@ -7,7 +7,7 @@ import {INSTAGRAM_MEDIA_API} from "~/data/paths";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "About" },
+        { title: "LJ | About" },
         { name: "description", content: "Lars Johansen's About Page" },
     ];
 }

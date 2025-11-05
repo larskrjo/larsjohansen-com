@@ -4,7 +4,7 @@ import FoodView from "~/components/pages/interests/FoodView";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "Food" },
+        { title: "LJ | Food" },
         { name: "description", content: "Lars Johansen's Food Page" },
     ];
 }

@@ -7,7 +7,7 @@ import {STRAVA_ACTIVITIES_RECENT_API} from "~/data/paths";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "Home" },
+        { title: "LJ | Home" },
         { name: "description", content: "Lars Johansen's Home Page" },
     ];
 }

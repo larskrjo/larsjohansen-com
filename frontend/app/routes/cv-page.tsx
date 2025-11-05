@@ -4,7 +4,7 @@ import CvView from "~/components/pages/cv/CvView";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "CV/Resume" },
+        { title: "LJ | CV/Resume" },
         { name: "description", content: "Lars Johansen's CV/Resume Page" },
     ];
 }

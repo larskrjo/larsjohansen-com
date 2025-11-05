@@ -4,7 +4,7 @@ import TechnologyView from "~/components/pages/interests/TechnologyView";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "Technology" },
+        { title: "LJ | Technology" },
         { name: "description", content: "Lars Johansen's Technology Page" },
     ];
 }

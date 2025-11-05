@@ -4,7 +4,7 @@ import MusicView from "~/components/pages/interests/MusicView";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "Music" },
+        { title: "LJ | Music" },
         { name: "description", content: "Lars Johansen's Music Page" },
     ];
 }

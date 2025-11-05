@@ -4,7 +4,7 @@ import {PageSkeleton} from "~/components/PageSkeleton";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "Error!" },
+        { title: "LJ | Error!" },
         { name: "description", content: "Unknown Page" },
     ];
 }

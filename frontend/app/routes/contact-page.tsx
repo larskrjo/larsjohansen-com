@@ -4,7 +4,7 @@ import ContactView from "~/components/pages/contact/ContactView";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "Contact" },
+        { title: "LJ | Contact" },
         { name: "description", content: "Lars Johansen's Contact Page" },
     ];
 }

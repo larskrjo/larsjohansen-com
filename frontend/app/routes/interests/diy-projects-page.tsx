@@ -4,7 +4,7 @@ import DiyProjectsView from "~/components/pages/interests/DiyProjectsView";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "DIY Projects" },
+        { title: "LJ | DIY Projects" },
         { name: "description", content: "Lars Johansen's DIY Projects Page" },
     ];
 }
