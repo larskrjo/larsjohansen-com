@@ -14,30 +14,35 @@ export const HOME_PAGE_POST = {
 
 export const INTEREST_PAGE_CATEGORIES: Card[] = [
     {
+        id: 1,
         title: 'Technology',
         subtitle: 'Programming and Innovation',
         image: '/images/interests/technology.png',
         href: '/interests/technology',
     },
     {
+        id: 2,
         title: 'Food',
         subtitle: 'Food from around the world',
         image: '/images/interests/food.png',
         href: '/interests/food',
     },
     {
+        id: 3,
         title: 'Sports',
         subtitle: 'Running on tracks and trails',
         image: '/images/interests/sports.png',
         href: '/interests/sports',
     },
     {
+        id: 4,
         title: 'DIY Projects',
         subtitle: 'Making something new',
         image: '/images/interests/diy-projects.png',
         href: '/interests/diy-projects',
     },
     {
+        id: 5,
         title: 'Music',
         subtitle: 'Listening and Playing',
         image: '/images/interests/music.png',

@@ -1,19 +1,14 @@
-import {
-  isRouteErrorResponse,
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
-} from "react-router";
+import {isRouteErrorResponse, Links, Meta, Outlet, Scripts, ScrollRestoration,} from "react-router";
 
-import type { Route } from "./+types/root";
-import { theme } from './themes/theme';
+import type {Route} from "./+types/root";
+import {theme} from './themes/theme';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import { ThemeProvider, CssBaseline } from '@mui/material';
+import {CssBaseline, ThemeProvider} from '@mui/material';
+import Loading from "~/components/pages/Loading";
+
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -51,6 +46,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return <Outlet />;
+}
+
+export function HydrateFallback() {
+    return <Loading />
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

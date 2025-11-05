@@ -35,8 +35,6 @@ export default function CardItem({ title, subtitle, image, href }: Card) {
 
             <Box
                 className="tile-media"
-                component={href ? 'a' : 'div'}
-                href={href}
                 sx={{
                     position: 'relative',
                     display: 'block',
