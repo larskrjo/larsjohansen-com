@@ -32,7 +32,7 @@ function ContactCards() {
 
             <Grid container spacing={3} sx={{pr: {xs: 0, md: 10, lg: 20}}}>
                 {CONTACTS.map((item) => (
-                    <HeaderSection item={item} />
+                    <HeaderSection key={item.id} item={item} />
                 ))}
             </Grid>
         </Container>

@@ -24,6 +24,7 @@ export type Card = {
 }
 
 type ContactItem = {
+    id: number;
     label: string;
     value: string;
     href?: string;

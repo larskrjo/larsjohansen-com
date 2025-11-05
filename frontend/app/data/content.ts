@@ -112,11 +112,11 @@ export const UNKNOWN_PAGE = {
 }
 
 export const CONTACTS: ContactItem[] = [
-    { label: "Email", value: "larskrjo@gmail.com", href: "mailto:larskrjo@gmail.com" },
-    { label: "Facebook", value: "https://facebook.com/larskrjo" },
-    { label: "Instagram", value: "https://instagram.com/larskrjo" },
-    { label: "X", value: "https://x.com/larskrjo" },
-    { label: "Github", value: "https://github.com/larskrjo" },
+    { id: 1, label: "Email", value: "larskrjo@gmail.com", href: "mailto:larskrjo@gmail.com" },
+    { id: 2, label: "Facebook", value: "https://facebook.com/larskrjo" },
+    { id: 3, label: "Instagram", value: "https://instagram.com/larskrjo" },
+    { id: 4, label: "X", value: "https://x.com/larskrjo" },
+    { id: 5, label: "Github", value: "https://github.com/larskrjo" },
 ];
 
 export const OSLO_COORDINATES = { lat: 59.9139, lng: 10.7522 };
